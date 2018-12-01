@@ -1,4 +1,4 @@
-const { REGION="eu-west-1", STAGE="dev" } = process.env
+const { REGION="us-east-2", STAGE="dev" } = process.env
 
 const AWS = require('aws-sdk')
 AWS.config.region = REGION
